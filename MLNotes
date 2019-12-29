@@ -1,0 +1,94 @@
+class -> pandas.core.frame.DataFrame
+         'package'         'Class'
+
+small letter = package or folder
+Camel case = Class
+official term for column is features(training features)
+and row is called training instance
+ML has two data
+1->Numeric data(int ,float)
+
+2->Object data(text)
+
+
+understanding the data with visualization
+#A Univariate Plots
+ In this section we will look at three techniques
+ that you can use to understand each attribute of your dataset independently,
+
+1 ) Univariate Histogram Plot. --- gives frequency
+2 ) Univariate Density Plots.  --- gives the pattern of frequency
+3 ) Univariate Box and Whisker Plots. --- Gives the central tendency of outliers
+
+
+02-11-19 ---------------------------------------------------------------
+
+1) Formula
+2) Function
+3) Program
+4) Algo
+5) Model
+
+HYPOTHESIS INSTANCE
+
+-  BEST FIT HYPOTHESIS INSTANCE IS THE LINE WHOSE ACCURACY IS MAXIMUM i.e. IT LIES CLOSELY WITH THE DATA POINTS
+- Hypothesis Instance Parameter is m and c
+- GROUP OF ALL HYPOTHSIS INSTANCE IS HYPOTHESIS SPACE
+- THE GENERAL FORMULA IS KNOWN AS HYPOTHESIS SPACE AND BY PUTTING PARTICULAR VALUE OR PARAMETER IS KNOWN AS HYPOTHESIS INSTANCE
+
+INTERNAL VARIABLE is recoginize by -
+underscore is either in the first variable name or last of variable name
+example = __version__
+
+to train data we fit the label data.
+
+4/11/19-----------------------------------------------------------------
+---metadata of column is columns
+---metadata of row is index
+
+
+#B) MULTIVARIATE PLOTS
+
+1)- correlation matrix plot    ---- it help in feature selection (or feature elemenation)
+
+2)-scatter matrix plot
+
+
+# Prepare data for machine learning
+4 ways to prepare the data for Machine learning
+
+1) Rescale data. (custom range)
+2) Standardize data
+3) Normalize data
+4) Binarize data
+
+Steps of data Transforms
+
+1) Load the data set from a URL
+2) Split the dataset into the input and output variables for machine learning
+3) Apply a pre-processing transformation technique to transform the input variables.
+4) Summarize the data to show the changes
+
+
+5/11/19-------------------------------------------
+(M)
+
+Y is  expected output or target output
+we pass array of training instance in fit.
+
+Standardize the data means average of data is zero
+– convert the data into gausian distribution.
+– Gaussian with zero mean and unit variance.
+
+normalized data is same as rescale data but we need not to enter the scale it automatically scale from 0 to 1
+
+binarize data means convert continuous data to  catogiral(discreate)data
+
+
+
+6/11/19
+CLASSIFICATION ACCURACY
+LOGRITHMIC LOSS
+AREA UNDER ROC CURVE
+CONFUSION MATRIX
+CLASSIFICATION REPORT
