@@ -21,3 +21,4 @@ scoringMethod= 'neg_log_loss'    # it shows how much error in the output and sho
 
 results = cross_val_score(model,X,Y,cv = kfold,scoring=scoringMethod)
 print("Accuracy: %.3f (%.3f)"%(results.mean(),results.std()))
+
