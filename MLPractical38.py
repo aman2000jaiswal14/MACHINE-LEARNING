@@ -9,4 +9,3 @@ y = df[df['age']>df.mean()['age']]
 plt.plot(y['skin'],y['age'],'mo',label = 'skin vs age(age>mean_age)')
 plt.legend(loc = 'best')
 plt.show()
-
