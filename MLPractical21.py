@@ -20,3 +20,4 @@ print("a= ",a)
 print("b= ",b)
 print(np.logical_or(a,b))
 print(np.logical_and(a,b))
+
