@@ -7,3 +7,4 @@ print("Numpy loadtxt: ",data.shape)
 raw_data.close()
 print("Sum column ", data.sum(axis=0))
 print("Sum row",data.sum(axis=1))
+
