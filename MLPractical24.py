@@ -22,3 +22,4 @@ print(x[:,0].sum() , x[:,1].sum() )
 print(x[0,:].sum(),x[1,:].sum())
 
 print(x.sum(axis=1))
+
