@@ -7,3 +7,4 @@ print(lines)
 print()
 for l in lines:
     print(l)
+    
