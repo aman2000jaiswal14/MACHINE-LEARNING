@@ -13,6 +13,6 @@ plt.bar(m,n)
 plt.title("Raw Data")
 plt.show()
 
-plt.hist(n,bins=10) # bin form bucket of data
+plt.hist(n , bins=10) # bin form bucket of data
 plt.title("Histogram")
 plt.show()
