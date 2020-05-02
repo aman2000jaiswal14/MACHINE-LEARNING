@@ -22,3 +22,4 @@ print(np.any([1,2,3,4]))        # True
 print(np.any([1,2,0,3,4]))      # True
 print(np.any([0,0,0,0.,0]))     # False
 print(np.any([0,0,0,0.,0,1]))    #True
+
