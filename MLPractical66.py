@@ -24,3 +24,4 @@ result = model.score(X_test,Y_test)  # calculate the accuracy
 
 print("Accuracy = %f %%" % (result * 100) )
 
+
