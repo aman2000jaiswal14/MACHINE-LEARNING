@@ -17,3 +17,4 @@ plt.scatter(x2,y3,marker='^',color='m')
 
 plt.title('Scatter Plot Example')
 plt.show()
+
