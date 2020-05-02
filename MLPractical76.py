@@ -22,3 +22,4 @@ scoringMethod = 'neg_mean_squared_error'
 results = cross_val_score(model,X,Y,
                           cv = kfold, scoring= scoringMethod)
 print("MAE: %.3f (%.3f)"%(results.mean(),results.std()))
+
