@@ -1,4 +1,4 @@
-print("ML is Simple")
+print("ML  is  Simple")
 import numpy
 print("numpy", numpy.__version__)
 import matplotlib
