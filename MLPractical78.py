@@ -70,3 +70,4 @@ from sklearn.svm import SVC
 model = SVC()
 results = cross_val_score(model, X, Y, cv=kfold)
 print("validation score for SVM : ", results.mean())
+
