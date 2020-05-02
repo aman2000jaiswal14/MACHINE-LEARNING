@@ -20,6 +20,10 @@ print("-#-"*20)
 # Descriptive Statistics
 # pandas.set_option('display.width',1000)
 pandas.set_option('precision',2)
+
+pandas.set_option("display.max_rows", 20)
+pandas.set_option("display.max_columns",None)
+
 print("description = \n", dataframe.describe()) # it generate report , very important for machine learning
 print("-*-"*20)
 
