@@ -20,3 +20,4 @@ scoringMethod= 'accuracy'
 
 results = cross_val_score(model,X,Y,cv = kfold,scoring=scoringMethod)  # this type of accuracy is default
 print("Accuracy: %.3f (%.3f)"%(results.mean()*100,results.std()*100))
+
