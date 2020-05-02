@@ -50,3 +50,4 @@ if __name__ == "__main__":
     print( "Intercept value ",result['intercept'] )
     print( "coefficient", result['coefficient'] )
     print( "Predicted House Price value: ",result['predicted_ans'] )
+    
