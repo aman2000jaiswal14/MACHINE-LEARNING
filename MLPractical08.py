@@ -50,4 +50,3 @@ def startAIAlgorithm():
 
 if __name__ == "__main__":
     startAIAlgorithm()
-
