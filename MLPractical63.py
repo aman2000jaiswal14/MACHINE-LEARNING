@@ -14,3 +14,4 @@ scaler = Normalizer()
 normalizedX = scaler.fit_transform(X)
 
 print(normalizedX[:30,:])
+
