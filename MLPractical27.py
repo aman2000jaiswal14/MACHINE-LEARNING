@@ -7,4 +7,3 @@ plt.show()            #  use it to show graph
 
 # y = [1,2,3,4]
 # x = [0,1,2,3]
-
