@@ -1,5 +1,5 @@
 # Load CSV FILES WITH NumPy
-# -----------------
+# -------------------------
 import numpy
 filename= 'indians-diabetes.data.csv'
 raw_data=open(filename,'r')
