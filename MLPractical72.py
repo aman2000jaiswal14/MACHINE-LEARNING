@@ -21,3 +21,4 @@ scoringMethod= 'roc_auc'   # it calculate accuracy in central values and does no
 
 results = cross_val_score(model,X,Y,cv = kfold,scoring=scoringMethod)
 print("Accuracy: %.3f (%.3f)"%(results.mean()*100,results.std()*100))
+
