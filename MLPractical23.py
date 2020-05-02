@@ -7,4 +7,4 @@ print(np.exp(a))
 
 # Shape mismatches : Error
 a = np.arange(4)
-print( a + np.array([1, 2]))  # Error
+# print( a + np.array([1, 2]))  # Error
