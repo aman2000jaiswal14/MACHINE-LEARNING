@@ -22,3 +22,4 @@ scoringMethod = 'r2'  # closeness index  if value is 1 then exactly at best fit 
 results = cross_val_score(model,X,Y,
                           cv = kfold, scoring= scoringMethod)
 print("MAE: %.3f (%.3f)"%(results.mean(),results.std()))
+
