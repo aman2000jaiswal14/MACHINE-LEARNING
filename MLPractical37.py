@@ -16,3 +16,4 @@ plt.plot(data[:,7],data[:,3],'go',label='age vs skin')
 plt.legend(loc = 'best')
 plt.show()
 
+
