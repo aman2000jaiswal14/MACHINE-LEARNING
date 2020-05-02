@@ -15,6 +15,5 @@ print("49**.5 = ",49**.5)  # exponent operator to calculate square root
 
 print("ar **.5 = \n",(np.arange(101,111))**.5) # print sqroot of 101 to 110
 
-
 j = np.arange(5)
 print(2**(j+1)-j)
